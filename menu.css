@@ -1,0 +1,91 @@
+@font-face {
+    font-family: 'TTLaundryGothicB';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2403-2@1.0/TTLaundryGothicB.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+}
+
+.wrap {
+    width : 1200px;
+    margin : 50px auto;
+}
+
+.menu {
+    width : 100%;
+    text-align: center;
+    border: 1px solid #444444;
+    border-radius: 4px;
+    border-collapse: collapse;
+}
+
+caption {
+    font-family: 'TTLaundryGothicB';
+    font-size: 25px;
+    margin-bottom: 20px;
+}
+
+
+/* thead th {
+    position: sticky;
+    top : 0;
+    width : 14.28%;
+    padding : 15px;
+    border: 2px solid #444444;
+    font-family: 'TTLaundryGothicB';
+    font-size: 20px;
+    background-color: black;
+    color : white;
+} */
+
+.saturday, .sunday {
+    color : skyblue;
+}
+
+.usuallyFood, .wantFood {
+    height : 70px;
+    line-height: 69px;
+    font-size : 25px;
+    font-family: 'TTLaundryGothicB';
+    color : white;
+    border-top : 3px solid black;
+    border-bottom: 3px solid black;
+}
+
+.usuallyFood {
+    background-color: green;
+}
+
+.wantFood {
+    background-color: crimson;  
+}
+
+
+
+.menuWrap {
+    width : 14.28%;
+    height : 250px;
+    border: 2px solid #444444;
+}
+
+.menuImg {
+    width : 100%;
+    object-fit: cover;
+    height : 50%;
+}
+
+.menuTitle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding : 5px;
+    font-family: 'TTLaundryGothicB';
+    height : 50%;
+}
+
+.menuTitle li {
+    padding : 5px;
+}
+
+.menuTitle li:first-child {
+    color : crimson;
+}
